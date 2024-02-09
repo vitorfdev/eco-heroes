@@ -15,7 +15,7 @@ import exit from './assets/img/exit.svg';
 
 export const App = () => {
   return (
-    <div className="bg-background bg-cover bg-center h-screen w-screen flex flex-row relative">
+    <div className="bg-[url('./src/assets/img/background.png')] bg-cover bg-center h-screen w-screen flex flex-row relative">
       <h1 className="absolute text-9xl font-bold outline text-white text-opacity-50 self-center mx-96">
         EM PRODUCAO
       </h1>
