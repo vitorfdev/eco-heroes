@@ -12,10 +12,16 @@ import right from './assets/img/right.svg';
 import config from './assets/img/config.svg';
 import sound from './assets/img/sound.svg';
 import exit from './assets/img/exit.svg';
+import background from './assets/img/background.png';
 
 export const App = () => {
   return (
-    <div className="bg-[url('./src/assets/img/background.png')] bg-cover bg-center h-screen w-screen flex flex-row relative">
+    <div
+      style={{
+        backgroundImage: `url(${background})`,
+      }}
+      className="bg-cover bg-center h-screen w-screen flex flex-row relative"
+    >
       <h1 className="absolute text-9xl font-bold outline text-white text-opacity-50 self-center mx-96">
         EM PRODUCAO
       </h1>
