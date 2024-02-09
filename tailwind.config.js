@@ -10,7 +10,7 @@ export default {
         sans: ['Inter', 'sans-serif']
       },
       backgroundImage: {
-        'background': "url('./src/assets/img/background.png')"
+        'background': "url('/background.png')"
       }
     },
   },
